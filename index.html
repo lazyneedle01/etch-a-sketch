@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Etch a Sketch</h1>
+        <div class="range">
+            <div class="buttons">
+                <button id="clear" class="">Clear</button>
+                <button id="erase" class="">Erase</button>
+            </div>
+            <input type="color" name="color" id="color">
+            <input type="range" name="grid-size" id="grid-size" min="2" max="99">
+            <p class="range-text">2 x 2</p>
+        </div>
+        <div class="grid-container"></div>
+    </main>
+
+    <footer>
+        <p>made by <a href="https://github.com/lazyneedle01" target="_blank">lazyneedle01</a></p>
+    </footer>
+</body>
+
+</html>
